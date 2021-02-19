@@ -17,4 +17,4 @@ class CountEvens {
     }
 }
 
-//build & run java CountEvens.java
+// build & run java CountEvens.java
