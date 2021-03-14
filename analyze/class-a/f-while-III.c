@@ -4,7 +4,7 @@ int main(void) {
     int i = 1;
     int k = 0;
     int n = 4;
-    while (k < n){
+    while (k < n) {
         printf("teste");
         k = k + i;
         i = i + 1;
@@ -21,8 +21,11 @@ int main(void) {
 //     ....
 //     m                    0+1+2+ ... + m >= n pára
      
-//     (0+m)(m+1)/2 = m(m+1)/2           =>   soma de PA = (a1 + an)n / 2
+//     (0+m)(m+1)/2 = m(m+1)/2     =>   
+//     *** soma de PA = (a1 + an)n / 2 ***
+
 //     quando k = m(m+1)/2 >= n o laço pára
+
 //     ~ m^2/2 >= n
 //     = m^2 >= 2n
 //     = m >= raiz_quadrada(2n)
