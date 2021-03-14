@@ -7,7 +7,6 @@ int main(void) {
     }
 }
 
-// linha 2
 // n = 4, o laço executa 2 vezes
 // n = 8, o laço executa 3 vezes
 // n = 16, o laço executa 4 vezes

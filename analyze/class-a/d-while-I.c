@@ -22,4 +22,4 @@ int main(void) {
 // n = 2^k, o laço executa k vezes
 
 // k = log_2 n
-// T(n)= 3 log n + 2
+// T(n) = 3 log n + 2
