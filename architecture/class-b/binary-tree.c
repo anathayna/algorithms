@@ -3,23 +3,32 @@
 #include <omp.h>
   
 int main(int argc, char* argv[]) { 
-  int x, p, r, m;
   int v[] = {3,6,8,5,4,1};
-  #pragma omp parallel 
+  int x, p, r, maior;
+
+  if (argc != 2) {
+		printf("error\n");
+		exit(0);
+  }
+
+  #pragma omp parallel shared (maior)
   { 
+    int aux_maior;
+
     while (p <= r) { 
-       m = (p + r)/2;
-       if (x == v[m]) {
-           return m;
+       maior = (p + r)/2;
+       if (x == v[maior]) {
+          maior = aux_maior;
        }
-       if (x < v[m]) {
-           r = m - 1; 
+       if (x < v[maior]) {
+           r = maior - 1; 
        }
        else {
-           p = m + 1;
+           p = maior + 1;
        } 
     }
   } 
+  printf("%d\n", maior);
   return 0;
 }
 
