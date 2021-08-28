@@ -52,3 +52,6 @@ int main(void) {
 
   return 0;
 }
+
+// build: gcc exercicios.c -o e
+// run: ./e
