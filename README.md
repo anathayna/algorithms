@@ -1,2 +1,2 @@
 # algorithms
-well-defined computational procedure 🪴:herb:
+well-defined computational procedure 🪴
