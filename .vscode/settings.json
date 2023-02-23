@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.ejs": "html",
-        "karatsuba_algorithm.h": "c",
-        "karatsuba_learning.h": "c"
-    }
-}
