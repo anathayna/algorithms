@@ -13,8 +13,8 @@ int step5(int a, int b, int c, int d) {
   return step1(a, c) * 10000 + step2(b, d) + step4(a, b, c, d) * 100;
 }
 
-void thenoobway(void) {
-  printf("~ the noob way ~\n\n");
+void thelearningway(void) {
+  printf("~ the learning way ~\n\n");
 
   int x = 5678;
   int y = 1234;
