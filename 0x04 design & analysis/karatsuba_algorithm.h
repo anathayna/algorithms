@@ -7,7 +7,7 @@ int digitsize(int num) { return (int)log10(num) + 1; }
 
 int add(int a, int b) {
   int sum = 0;
-  while (b--)
+  while (b--) // b >= 0
     sum += a;
   return sum;
 }
